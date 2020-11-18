@@ -1,0 +1,23 @@
+{
+  "name": "byte",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "export NODE_ENV=test && mocha test/ --recursive --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chai": "^4.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mocha": "^8.2.0",
+    "mongoose": "^5.10.9",
+    "supertest": "^5.0.0"
+  }
+}
